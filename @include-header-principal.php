@@ -17,10 +17,15 @@
 		width: 60%;
 	}
 	header .box-menu nav{
+		display: flex;
+		justify-content: flex-end;
 		width: 100%;
 		font-size: 15px;
 	}
 	header .box-menu nav .main-nav{
+		position: absolute;
+		top: 200px;
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		white-space: nowrap;
@@ -83,7 +88,10 @@
 	}
 	header .box-menu nav .menu-mobile{
 		display: none;
-		font-size: 40px
+		font-size: 40px;
+		position: absolute;
+		top: 50px;
+		right: 20px;
 	}
 	@media screen and (max-width: 1280px){
 		header{
@@ -108,20 +116,53 @@
 		}
 	}
 	@media screen and (max-width: 960px){
+		header .box-menu{
+			position: absolute;
+			width: 40%;
+			right: 6px;
+			z-index: 1;
+		}
+		header .box-menu nav .main-nav li a .fa-caret-down{
+			display: none;
+		}
 		header .box-logo .logo-efectus{
 			width: 300px;
 		}
 		header .box-menu nav .main-nav{
 			display: none;
+			flex-direction: column;
+			align-items: flex-end;
+			position: absolute;
+			top: 100px;
 		}
 		header .box-menu nav .menu-mobile{
 			display: block;
-			display: flex;
 			justify-content: flex-end;
 			align-items: center;
 		}
+		header .box-menu nav .main-nav li{
+			width: 100%;
+			border: none;
+			text-align: right;
+			background-color: #fff;
+			padding: 10px;
+			margin: 0 0 0 20px;
+			border-bottom: 1px solid #ccc;
+			border-left: 1px solid #ccc;
+		}
 	}
 </style>
+<script>
+	window.onload = function(){
+		document.querySelector(".menu-mobile").addEventListener("click", function(){
+			if(document.querySelector(".box-menu nav ul").style.display == 'flex'){
+				document.querySelector(".box-menu nav ul").style.display = 'none';
+			}else{
+				document.querySelector(".box-menu nav ul").style.display = 'flex';
+			}
+		});
+	};
+</script>
 <header>
 	<div class="box-logo">
 		<a href="index.php"><img class="logo-efectus" src="imagens/identidadeVisual/logo-header-efectus-digital.png"></a>
