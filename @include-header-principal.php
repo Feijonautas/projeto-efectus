@@ -3,7 +3,7 @@
 		display: flex;
 		justify-content: space-between;
 		width: 80%;
-		height: 200px;
+		height: 150px;
 		margin: 0 auto;
 	}
 	header .box-logo{

@@ -52,13 +52,25 @@
 			}
 			.box-frase .simbolo{
 				font-size: 100px;
+				font-family: overpassheavyitalic;
+				color: #015095;
+				padding: 10px;
 			}
 			.box-frase .frase{
 				display: flex;
 				flex-direction: column;
+				line-height: 45px;
 			}
-			.box-frase .frase span{
-				font-size: 30px;	
+			.box-frase .frase .title{
+				font-family: overpassheavyitalic;
+				font-size: 45px;
+				color: #00FFFF;
+			}
+			.box-frase .frase .subtitle{
+				font-size: 45px;
+				font-family: bebasneue light_0;
+				font-style: italic;
+				color: #205198;
 			}
 		</style>
 	</head>
@@ -77,8 +89,8 @@
 			<div class="box-frase">
 				<span class="simbolo">#</span>
 				<div class="frase">
-					<span>Fazemos</span>
-					<span>Acontecer</span>
+					<span class="title">FAZEMOS</span>
+					<span class="subtitle">Acontecer</span>
 				</div>
 			</div>
 		</div>

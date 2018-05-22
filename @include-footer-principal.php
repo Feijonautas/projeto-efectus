@@ -109,9 +109,6 @@
 		}
 	}
 </style>
-<?php
-require_once "@links-default.php";
-?>
 <div class="main-footer-principal">
 	<div class="footer-principal">
 		<div class="box-projeto">
