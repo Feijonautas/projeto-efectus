@@ -18,7 +18,6 @@
 		<style>
 			.main-content{
 				width: 80%;
-				height: 500px;
 				margin: 0 auto;
 			}
 			.box-title{
@@ -71,6 +70,50 @@
 				font-family: bebasneue light_0;
 				font-style: italic;
 				color: #205198;
+			}
+			@media screen and (max-width: 1280px){
+				.text-sobre{
+					width: 60%;
+				}
+			}
+			@media screen and (max-width: 1024px){
+				.text-sobre{
+					width: 70%;
+				}
+				.box-title .title-sobre{
+					font-size: 80px;
+				}
+				.text-sobre p{
+					font-size: 20px;
+				}
+			}
+			@media screen and (max-width: 480px){
+				.text-sobre{
+					width: 80%;
+				}
+				.box-title .title-sobre{
+					font-size: 70px;
+				}
+				.text-sobre p{
+					font-size: 18px;
+				}
+				.box-frase .frase{
+					line-height: 25px;
+				}
+				.box-frase .simbolo{
+					font-size: 70px;
+				}
+				.box-frase .frase .title{
+					font-size: 30px;
+				}
+				.box-frase .frase .subtitle{
+					font-size: 30px;
+				}
+			}
+			@media screen and (max-width: 320px){
+				.text-sobre{
+					width: 90%;
+				}
 			}
 		</style>
 	</head>
