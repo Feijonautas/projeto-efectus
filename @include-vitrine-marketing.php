@@ -109,6 +109,9 @@
 		flex-direction: column;
 		align-items: center;
 		width: 80%;
+		background-image: url(imagens/pc-apple.png);
+		background-repeat: no-repeat;
+		background-position: left bottom;
 	}
 	.main-desenvolvimento .display-desenvolvimento .barra{
 		position: absolute;
@@ -158,7 +161,7 @@
 		border-radius: 15px;	
 	}
 	.display-equipe{
-		width: 80%;
+		width: 60%;
 		margin: 0 auto;
 	}
 	.display-equipe .box-title-equipe{
@@ -184,6 +187,22 @@
 		font-style: italic;
 		line-height: 1px;
 		margin: 0 0 0 200px;
+	}
+	.display-equipe .box-equipe-top{
+		display: flex;
+		justify-content: space-between;
+	}
+	.display-equipe .box-equipe{
+		display: flex;
+		justify-content: center;
+		margin: -30px;
+	}
+	.display-equipe .box-equipe-bottom{
+		display: flex;
+		justify-content: center;
+	}
+	.display-equipe .box-equipe-bottom img{
+		margin: 0 100px 0;	
 	}
 	.box-facebook{
 		display: flex;
@@ -280,5 +299,28 @@
 	<div class="box-title-equipe">
 		<h1 class="title-equipe">EQUIPE</h1>
 		<span class="sub-title-equipe">EFECTUS</span>
+	</div>
+	<div class="box-equipe-top">
+		<div class="box-equipe-img">
+			<img src="imagens/homenzinho.png">
+		</div>
+		<div class="box-equipe-img">
+			<img src="imagens/homenzinho.png">
+		</div>
+	</div>
+	<div class="box-equipe">
+		<img src="imagens/homenzinho.png">
+	</div>
+	<div class="box-equipe-top">
+		<div class="box-equipe-img">
+			<img src="imagens/homenzinho.png">
+		</div>
+		<div class="box-equipe-img">
+			<img src="imagens/homenzinho.png">
+		</div>
+	</div>
+	<div class="box-equipe-bottom">
+		<img src="imagens/homenzinho.png">
+		<img src="imagens/homenzinho.png">
 	</div>
 </div>

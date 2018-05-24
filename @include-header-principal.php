@@ -23,8 +23,6 @@
 		font-size: 15px;
 	}
 	header .box-menu nav .main-nav{
-		position: absolute;
-		top: 200px;
 		width: 100%;
 		display: flex;
 		justify-content: space-between;

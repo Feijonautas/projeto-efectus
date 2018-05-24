@@ -26,7 +26,7 @@
 		<?php
 		require_once "@link-body-scripts.php";
 		require_once "@include-header-principal.php";
-		require_once "@include-vitrine-marketing.php";
+		require_once "vitrine-marketing.php";
 		?>
 		<div class="main-content">
 			
