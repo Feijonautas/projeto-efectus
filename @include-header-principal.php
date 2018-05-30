@@ -5,6 +5,7 @@
 		width: 80%;
 		height: 150px;
 		margin: 0 auto;
+		z-index: 1;
 	}
 	header .box-logo{
 		display: flex;
@@ -180,7 +181,7 @@
 						<li><a href="#">SEO</a></li>
 					</ul>
 				</li>
-				<li><a href="#">DESENVOLVIMENTOS DE SITES</a></li>
+				<li><a href="desenvolvimento-de-site.php">DESENVOLVIMENTOS DE SITES</a></li>
 				<li><a href="sobre.php">SOBRE</a></li>
 				<li><a href="contato.php">CONTATO</a></li>
 			</ul>
