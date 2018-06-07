@@ -47,7 +47,6 @@
 	}
 	.maincontainer .display-info .box-text{
 		width: 50%;
-		height: 250px;
 		text-align: center;
 	}
 	.maincontainer .display-info .box-text .text{
@@ -126,7 +125,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
-		height: 250px;
+		margin: 0 0 50px 0;
 	}
 	.main-container .container .box-title .title{
 		font-size: 100px;
@@ -191,14 +190,14 @@
 		flex-direction: column;
 		align-items: flex-end;
 		height: 250px;
+		line-height: 130px;
 	}
 	.main-content .container .box-title .title{
 		background: -webkit-linear-gradient(left, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		font-size: 100px;
+		font-size: 130px;
 		font-family: overpassheavyitalic;
-		line-height: 90px;
 		margin: 0;
 		padding: 0;
 		color: #fff;
@@ -223,16 +222,144 @@
 	}
 	.main-content .container .display-equipe .box-equipe-bottom{
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
+		margin: 0 100px 0;
 	}
-	.main-content .container .display-equipe .box-equipe-bottom img{
-		margin: 0 60px 100px 60px;	
+	@media screen and (max-width: 1366px){
+		.main-container .container .display-content .box-img img{
+			left: -40px;
+		}
 	}
-	
+	@media screen and (max-width: 1280px){
+		.maincontainer {
+			width: 90%;
+		}
+		.main-container .container{
+			width: 90%;
+		}
+	}
+	@media screen and (max-width: 1024px){
+		.maincontainer .display-info .box-text{
+			width: 60%;
+		}
+		.maincontainer .display-content{
+			width: 100%;
+		}
+		.maincontainer .display-content .box-imagem img{
+			width: 80%;
+		}
+		.main-container .container .display-content .box-img img{
+			left: -20px;
+			top: -80px;
+			height: 600px;
+		}
+	}
+	@media screen and (max-width: 960px){
+		.maincontainer .display-info{
+			margin: 400px 0 50px 0;
+		}
+		.main-content .container{
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: 800px){
+		.main-container{
+			height: 850px;
+		}
+		.maincontainer .display-info .box-text{
+			width: 70%;
+		}
+		.maincontainer .display-info .box-title{
+			height: 250px;
+		}
+		.maincontainer .display-info .box-title .title, .sub-title{
+			font-size: 110px;
+		}
+		.maincontainer .display-info .box-title .title{
+			line-height: 90px;
+		}
+		.maincontainer .display-content{
+			flex-direction: column;
+			align-items: center;
+		}
+		.maincontainer .display-content .box-text{
+			width: 80%;
+			margin: 0 0 50px 0;
+		}
+		.maincontainer .display-content .box-imagem{
+			margin: 50px 0 0 0;
+		}
+		.maincontainer .display-content .box-imagem img{
+			width: 100%;
+		}
+		.main-container .container .box-title .title{
+			font-size: 90px;
+			line-height: 75px;
+		}
+		.main-container .container .box-title .sub-title{
+			font-size: 90px;
+		}
+		.main-container .container .display-content .box-img img{
+			top: 0px;
+			height: 500px;
+		}
+		.main-content .container .box-title{
+			line-height: 110px;
+		}
+		.main-content .container .box-title .title{
+			font-size: 110px;
+		}
+		.main-content .container .box-title .sub-title{
+			font-size: 90px;
+		}
+	}
+	@media screen and (max-width: 720px){
+		.main-container .container .display-content .box-img{
+			display: none;
+		}
+		.main-container .container .display-content .box-text{
+			width: 80%;
+		}
+		.main-container .container .display-content{
+			justify-content: center;
+		}
+	}
+	@media screen and (max-width: 480px){
+		.maincontainer .display-info .box-title .title, .sub-title{
+			font-size: 95px;
+		}
+		.maincontainer .display-info .box-title .title{
+			line-height: 80px;
+		}
+		.main-container .container .box-title .title{
+			font-size: 70px;
+			line-height: 60px;
+		}
+		.main-container .container .box-title .sub-title{
+			font-size: 70px;
+		}
+		.main-content .container .box-title{
+			line-height: 95px;
+		}
+		.main-content .container .box-title .title{
+			font-size: 95px;
+		}
+		.main-content .container .box-title .sub-title{
+			font-size: 80px;
+		}
+		.main-content .container .display-equipe .box-equipe{
+			flex-direction: column;
+			align-items: center;
+		}
+		.main-content .container .display-equipe .box-equipe-bottom{
+			flex-direction: column;
+			align-items: center;
+		}
+	}
 </style>
 <section class="maincontainer">
 	<div class="box-iframe">
-		<iframe width="100%" height="500px" src="https://www.youtube.com/embed/7VH3wJmMdPU?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<!--<iframe width="100%" height="500px" src="https://www.youtube.com/embed/7VH3wJmMdPU?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allownetworking=”internal></iframe>-->
 	</div>
 	<div class="display-info">
 		<div class="box-title">

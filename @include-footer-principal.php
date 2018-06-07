@@ -112,7 +112,7 @@
 <div class="main-footer-principal">
 	<div class="footer-principal">
 		<div class="box-projeto">
-			<a href="#" class="title">COMECE UM PROJETO</a>
+			<a href="@include-projeto.php" class="title">COMECE UM PROJETO</a>
 			<a href="#" class="sub-title"><i>COM EFECTUS</i></a>
 		</div>
 		<div class="display-footer">

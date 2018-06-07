@@ -101,7 +101,7 @@
 				animation: circle .75s;
 			}
 			.container .display-container .box-info:hover{
-02				color: #fff;
+				color: #fff;
 				transition: 2s;
 			}
 			.container .display-container .box-info .text{
