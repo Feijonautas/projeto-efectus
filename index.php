@@ -32,7 +32,7 @@
 			
 		</div>
 		<?php
-		require_once "@include-footer-principal.php";
+		require_once "footer-atualizado.php";
 		?>
 	</body>
 </html>

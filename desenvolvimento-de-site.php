@@ -455,6 +455,15 @@
 					width: 250px;
 				}
 			}
+			@media screen and (max-width: 320px){
+				.main-container .container .box-title .title{
+					font-size: 50px;
+					line-height: 40px;
+				}
+				.main-container .container .box-title .sub-title{
+					font-size: 50px;
+				}
+			}
 		</style>
 	</head>
 	<body>
