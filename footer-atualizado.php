@@ -7,11 +7,14 @@
         color: #57A9D4;
     }
     .maincontent-footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
         width: 100%;
-        background-color: #E6E8E7;
 		margin: 70px 0 0 0;
+        background-color: #E6E8E7;
     }
-	.maincontent-footer .content-footer .display-action{
+	.maincontent-footer .display-action{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -19,54 +22,46 @@
 		width: 70%;
 		height: 130px;
 		line-height: 30px;
-		margin: -50px auto auto auto;
+		margin: -50px 0 0 0;
 		border-radius: 65px;
-		background-color: blue;
-		background: rgba(16,105,201,1);
-		background: -moz-linear-gradient(left, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
-		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(16,105,201,1)), color-stop(81%, rgba(117,189,209,1)), color-stop(100%, rgba(147,206,222,1)));
-		background: -webkit-linear-gradient(left, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
-		background: -o-linear-gradient(left, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
-		background: -ms-linear-gradient(left, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
 		background: linear-gradient(to right, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1069c9', endColorstr='#93cede', GradientType=1 );
 	}
-	.maincontent-footer .content-footer .display-action h1,
-	.maincontent-footer .content-footer .display-action h2{
+	.maincontent-footer .display-action h1,
+	.maincontent-footer .display-action h2{
 		margin: 0;
 		padding: 0;
 	}
-	.maincontent-footer .content-footer .display-action h1{
+	.maincontent-footer .display-action h1{
 		font-size: 65px;
 		font-family: overpassheavyitalic;
 	}
-	.maincontent-footer .content-footer .display-action h2{
+	.maincontent-footer .display-action h2{
 		font-size: 65px;
 		font-style: italic;
 		font-weight: normal;
 		font-family: bebasneue light_0;
 	}
-	.maincontent-footer .content-footer .display-action h1 a,
-	.maincontent-footer .content-footer .display-action h2 a{
+	.maincontent-footer .display-action h1 a,
+	.maincontent-footer .display-action h2 a{
 		text-decoration: none;
 	}
-	.maincontent-footer .content-footer .display-action h1 a{
+	.maincontent-footer .display-action h1 a{
 		color: #00FFFF;
 	}
-	.maincontent-footer .content-footer .display-action h2 a{
+	.maincontent-footer .display-action h2 a{
 		color: #FFF;
 	}
     .maincontent-footer .content-footer{
         display: flex;
+		justify-content: center;
         flex-wrap: wrap;
         width: 80%;
-        margin: 0 auto;
     }
     .maincontent-footer .content-footer .display-lc-footer{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 40%;
+        width: 50%;
     }
     .maincontent-footer .content-footer .display-lc-footer .box-logo{
         width: 50%;
@@ -78,10 +73,10 @@
     }
     .maincontent-footer .content-footer .display-sd-footer{
         display: flex;
-        width: 60%;
+        width: 50%;
     }
     .maincontent-footer .content-footer .display-sd-footer .box-sd{
-        width: 35%;
+        width: 50%;
     }
     .maincontent-footer .content-footer .display-sd-footer .box-sd ul{
         margin: 0;
@@ -99,7 +94,7 @@
 	}
     .maincontent-footer .content-footer .display-cf-footer{
         display: flex;
-        width: 40%;
+        width: 50%;
         margin: 50px 0 0 0;
     }
     .maincontent-footer .content-footer .display-cf-footer .box-cf{
@@ -115,14 +110,14 @@
     .maincontent-footer .content-footer .display-tn-footer{
         display: flex;
         width: 50%;
-        margin: 50px 0 50px 0;
+        margin: 50px 0 0 0;
     }
     .maincontent-footer .content-footer .display-tn-footer .box-tnews{
-        width: 30%;   
+        width: 50%;   
     }
     .maincontent-footer .content-footer .display-tn-footer .box-newsletter{
 		display: flex;
-        width: 70%;
+        width: 50%;
     }
     .maincontent-footer .content-footer .display-tn-footer .box-newsletter .input-newsletter{
 		width: 250px;
@@ -143,73 +138,61 @@
 		background-color: #015095;
 		transition: .2s;
 	}
-	.maincontent-footer .content-footer .display-tn-footer .box-newsletter .fa-facebook{
-		font-size: 40px;
-		color: #B0B0B0;
-		margin-top: -5px;
-	}
-	.maincontent-footer .content-footer .display-tn-footer .box-newsletter .fa-facebook:hover{
-		color: #015095;
-		transition: .2s;
-	}
-	@media screen and (max-width: 1600px){
-		.maincontent-footer .content-footer{
-			width: 85%;
-		}
-	}
-	@media screen and (max-width: 1440px){
-		.maincontent-footer .content-footer{
-			width: 90%;
-		}
-	}
-	@media screen and (max-width: 1366px){
-		.maincontent-footer .content-footer .display-sd-footer{
-			width: 55%;
-		}
-		.maincontent-footer .content-footer .display-lc-footer{
-			width: 45%;
-		}
-	}
-	@media screen and (max-width: 1280px){
-		.maincontent-footer .content-footer .display-sd-footer{
-			width: 50%;
-		}
-		.maincontent-footer .content-footer .display-sd-footer .box-sd{
-			width: 45%;
-		}
-		.maincontent-footer .content-footer .display-lc-footer{
-			width: 50%;
-		}
-	}
 	@media screen and (max-width: 1024px){
-		.maincontent-footer .content-footer .display-action{
-			width: 90%;
-		}
-		.maincontent-footer .content-footer .display-lc-footer .box-logo{
-			width: 45%;
-		}
-		.maincontent-footer .content-footer .display-lc-footer .box-contato{
-			width: 55%;
-		}
-		.maincontent-footer .content-footer .display-sd-footer .box-sd{
-			width: 50%;
-		}
-		.maincontent-footer .content-footer .display-tn-footer .box-newsletter{
-			width: 50%;
-		}
-	}
-	@media screen and (max-width: 960px){
 		.maincontent-footer .content-footer{
 			width: 100%;
 		}
 	}
+	@media screen and (max-width: 960px){
+		.maincontent-footer .content-footer{
+			flex-direction: column;
+			align-items: center;
+			width: 80%;
+		}
+		.maincontent-footer .content-footer .display-lc-footer,
+		.maincontent-footer .content-footer .display-sd-footer,
+		.maincontent-footer .content-footer .display-cf-footer,
+		.maincontent-footer .content-footer .display-tn-footer{
+			width: 80%;
+		}
+	}
+	@media screen and (max-width: 640px){
+		.maincontent-footer .content-footer{
+			width: 95%;
+		}
+	}
+	@media screen and (max-width: 480px){
+		.maincontent-footer .content-footer .display-lc-footer,
+		.maincontent-footer .content-footer .display-sd-footer,
+		.maincontent-footer .content-footer .display-cf-footer,
+		.maincontent-footer .content-footer .display-tn-footer{
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: 320px){
+		.maincontent-footer .content-footer .display-lc-footer,
+		.maincontent-footer .content-footer .display-sd-footer,
+		.maincontent-footer .content-footer .display-cf-footer,
+		.maincontent-footer .content-footer .display-tn-footer{
+			flex-direction: column;
+		}
+		.maincontent-footer .content-footer .display-lc-footer .box-logo{
+			width: 85%;
+		}
+		.maincontent-footer .content-footer .display-lc-footer .box-contato{
+			width: 85%;
+		}
+		.maincontent-footer .content-footer .display-sd-footer .box-sd{
+			width: 85%;
+		}
+	}
 </style>
 <footer class="maincontent-footer">
+	<div class="display-action">
+		<h1><a href="#">COMECE UM PROJETO</a></h1>
+		<h2><a href="#">COM A EFECTUS</a></h2>
+	</div>
     <div class="content-footer">
-		<div class="display-action">
-			<h1><a href="#">COMECE UM PROJETO</a></h1>
-			<h2><a href="#">COM A EFECTUS</a></h2>
-		</div>
         <div class="display-lc-footer">
             <div class="box-logo">
                 <img src="imagens/identidadeVisual/logo-efectus-footer.png">
@@ -240,6 +223,8 @@
                 </ul>
             </div>
         </div>
+	</div>
+    <div class="content-footer">
         <div class="display-cf-footer">
             <div class="box-cf">
                	<div class="cf">
@@ -262,7 +247,6 @@
             <div class="box-newsletter">
                 <input class="input-newsletter" type="text" placeholder="Seu e-mail..." name="email">
                 <input class="btn-news" type="submit" value="Enviar" name="btn-newsletter">
-                <a href="https://www.facebook.com/efectusdigital/" target="_blank"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
     </div>

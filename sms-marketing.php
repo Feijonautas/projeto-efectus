@@ -16,132 +16,133 @@
 		require_once "@link-standard-scripts.php";
 		?>
 		<style>
-			
-			@keyframes bloom {
-				0% {
-					filter: grayscale(.8);
-				}
-				40% {
-					filter: grayscale(.5);
-				}
-				60%{
-					filter: grayscale(.4);
-				}
-				100% {
-					filter: grayscale(0);
-				}
+			.main-content{
+				width: 100%;
+				overflow: hidden;
 			}
-			@keyframes circle {
-				0% {
-					opacity: .5;
-					background: rgba(213,156,34,.2);
-				}
-				40% {
-					opacity: 1;
-					background: rgba(213,34,160,.2);
-				}
-				100% {
-					width: 150%;
-					height: 150%;
-					opacity: 0;
-				}
-			}
-			.flex{
-				2;
-			}
-			.container{
+			.main-content .content{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
 				width: 80%;
 				margin: 0 auto;
 			}
-			.container .display-container{
+			.main-content .content .display-content{
+				display: flex;	
+			}
+			.main-content .content .display-content .box-content{
 				display: flex;
-				justify-content: flex-end;
-				margin-top: 50px;
-			}
-			.container .display-container .box-container{
+				flex-direction: column;
+				justify-content: center;
 				flex: 1;
+				margin: 0 0 50px 0;
 			}
-			.container .display-container .box-container .text{
+			.main-content .content .display-content .box-content .title-marketing .title-top{
+				font-size: 100px;
+				background: -webkit-linear-gradient(left, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				margin: 0;
+				padding: 0;
+				font-family: overpassheavyitalic;
+				line-height: 90px;
+			}
+			.main-content .content .display-content .box-content .title-marketing .title-bottom{
+				color: #205198;
+				font-family:  bebasneue light_0;
+				font-style: italic;
+				font-size: 100px;
+				line-height: 1px;
+			}
+			.main-content .content .display-content .box-content .sms-marketing{
+				width: 100%;
+			}
+			.main-content .content .display-content .box-content .text-marketing{
 				text-align: justify;
 				color: #205198;
+				font-size: 18px;
+				line-height: 28px;
 			}
-			.container .display-container .box-info{
+			.main-content .content .display-info{
+				display: flex;
+				justify-content: space-between;
+				width: 80%;
+			}
+			.main-content .content .display-info .box-info{
 				position: relative;
 				display: flex;
-				justify-content: center;
+				flex-direction: column;
 				align-items: center;
+				justify-content: center;
+				border: 1px solid transparent;
+				border-image: linear-gradient(-45deg, #0064AA, #00BBFA);
+				border-image-slice: 1;
+				-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+				-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+				box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
 				width: 200px;
-				height: 200px;
-				border-radius: 200px;
-				background-color: #ddd;
-				margin: 50px 25px 150px 25px;
-				filter: grayscale(.8);
+				padding: 20px;
+				background-color: #fff;
+				margin-bottom: 50px;
 			}
-			.container .display-container .box-info::before {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				z-index: 2;
-				display: block;
-				content: '';
-				width: 0;
-				height: 0;
-				background: aqua;
-				border-radius: 100%;
-				transform: translate(-50%, -50%);
-				opacity: 0;
-				transition: .2s;
+			.main-content .content .display-info .box-info .img-info{
+				width: 100%;
 			}
-			.container .display-container .box-info:hover{
-				background: radial-gradient(circle closest-side, aqua, #2084B6);
-			  	animation: bloom ease-in-out .75s forwards;
-				border-color: #fff;
-			}
-			.container .display-container .box-info:hover::before{
-				animation: circle .75s;
-			}
-			.container .display-container .box-info:hover{
-				color: #fff;
-				transition: 2s;
-			}
-			.container .display-container .box-info .text{
-				position: relative;
+			.main-content .content .display-info .box-info .text{
 				text-align: center;
-				font-weight: bold;
+				color: #333;
 			}
-			.container .display-container .box-info:hover .text{
-				color: #fff;
-				animation: fontsize 2s infinite;
+			@media screen and (max-width: 1366px){
+				.main-content .content .display-content .box-content .text-marketing{
+					line-height: 25px;
+				}
 			}
-			
-			.container .s-top{
-				position: absolute;
-				top: 50px;
-				width: 30%;
-				right: -230px;
+			@media screen and (max-width: 1024px){
+				.main-content .content{
+					width: 90%;
+				}
+				.main-content .content .display-content .box-content .text-marketing{
+					line-height: 22px;
+				}
+				.main-content .content .display-info{
+					width: 100%;
+				}
 			}
-			.container .s-bottom-right{
-				position: absolute;
-				top: 700px;
-				right: -300px;
-				width: 50%;
-				transform: rotate(-40deg);
-				z-index: -1;
+			@media screen and (max-width: 960px){
+				.main-content .content .display-content .box-content .text-marketing{
+					font-size: 12px;
+				}
+				.main-content .content .display-info .box-info .text{
+					font-size: 12px;
+				}
+				.main-content .content .display-content .box-content .text-marketing{
+					line-height: 18px;
+				}
+				.main-content .content .display-content .box-content .title-marketing .title-top{
+					font-size: 80px;
+					line-height: 70px;
+				}
+				.main-content .content .display-content .box-content .title-marketing .title-bottom{
+					font-size: 80px;
+				}
 			}
-			.container .s-center-right{
-				position: absolute;
-				top: 800px;
-				left: 300px;
-				z-index: -1;
-				width: 40%;
-				transform: rotate(40deg);
+			@media screen and (max-width: 800px){
+				.main-content .content .display-info .box-info{
+					width: 150px;
+				}
 			}
-			.container .s-left-right{
-				position: absolute;
-				left: -200px;
-				width: 50%;
-				top: 620px;
-				z-index: -1;
+			@media screen and (max-width: 640px){
+				.main-content .content{
+					width: 90%;
+				}
+				.main-content .content .display-content{
+					flex-direction: column-reverse;
+					align-items: center;
+				}
+				.main-content .content .display-info{
+					flex-direction: column;
+					align-items: center;
+				}
 			}
 		</style>
 	</head>
@@ -150,28 +151,35 @@
 		require_once "@link-body-scripts.php";
 		require_once "@include-header-principal.php";
 		?>
-		<section class="container">
-			<div class="display-container">
-				<div class="box-container flex"></div>
-				<div class="box-container">
-					<p class="text">O SMS é uma ferramenta de relacionamento com o cliente que cresceu significamente nos últimos anos, devido à descoberta dos seus benefícios e diferencias pelos profissionais de marketing. Ele é um meio de comunicação com ligação direta, personalizada, intatanêa, interativa e que, geralmente, está 24 horas por dia juto com aos cliente. Estas características fazem do SMS uma ferramenta importante do Marketing de Relacionamento. O SMS Marketing é utilizados através de campanhas por empresas que pretendem realizar ações de marketing com baixo custo de investimento, ampliando seu leque de ferramentas de publicidade e aumentando a clientela. O SMS tornou-se a principal fonte de comunicação com os consumidores e através do SMS Marketing, campanhas vêm se tornando cada vez mais eficazes, eficientes e estratégias para as empresas, independente do seu setor ou nicho de mercado. Ele permite que empresas diversifiquem seu portifólio de comunicação para atingir seu público-alvo, pois é possível realizar uma propaganda direta sem os altos custos do marketing tradicional (rádio, TV, jornal, entre outros).</p>
+		<section class="main-content">
+			<div class="content">
+				<div class="display-content">
+					<div class="box-content">
+						<img class="sms-marketing" src="imagens/departamentos/marketing/sms-marketing.png">
+					</div>
+					<div class="box-content">
+						<div class="title-marketing">
+							<h1 class="title-top">SMS</h1>
+							<span class="title-bottom">Marketing</span>
+						</div>
+						<p class="text-marketing">O SMS é uma ferramenta de relacionamento com clientes que cresceu significativamente nos últimos anos, devido à descoberta dos seus benefícios e diferenciais pelos profissionais de marketing. Ele é um meio de comunicação com ligação direta, personalizada, instantânea, interativa e que, geralmente, está 24 horas por dia junto aos clientes. Estas características fazem do SMS uma ferramenta importante do Marketing de Relacionamento. O SMS Marketing é utilizado através de campanhas por empresas que pretendem realizar ações de marketing com baixo custo de investimento, ampliando seu leque de ferramentas de publicidade e aumentando a clientela. O SMS tornou-se a principal fonte de comunicação com os consumidores e, através do SMS Marketing, campanhas vêm se tornando cada vez mais eficazes, eficientes e estratégicas para as empresas diversifiquem seu portfólio de comunicação para atingir seu público-alvo, pois é possivel realizar uma propaganda direita sem os altos custos do marketing tradicional (rádio, TV, jornal, entre outros).</p>
+					</div>
+				</div>
+				<div class="display-info">
+					<div class="box-info">
+						<img class="img-info" src="imagens/departamentos/marketing/design-responsivo.png">
+						<p class="text">Acessível a todos os dispositivos</p>
+					</div>
+					<div class="box-info">
+						<img class="img-info" src="imagens/departamentos/marketing/marketing.png">
+						<p class="text">Marketing de baixo custo</p>
+					</div>
+					<div class="box-info">
+						<img class="img-info" src="imagens/departamentos/marketing/publico-alvo.jpeg">
+						<p class="text">Público alvo selecionado</p>
+					</div>
 				</div>
 			</div>
-			<div class="display-container">
-				<div class="box-info">
-					<p class="text">Acessível <br>a todos os <br>dispositivos </p>
-				</div>
-				<div class="box-info">
-					<p class="text">Marketing <br>de baixo custo</p>
-				</div>
-				<div class="box-info">
-					<p class="text">Público <br>alvo selecionado</p>
-				</div>
-			</div>
-			<img  class="s-top" src="imagens/S-SMS.png">
-			<img  class="s-bottom-right" src="imagens/S-SMS.png">
-			<img  class="s-center-right" src="imagens/S-SMS.png">
-			<img  class="s-left-right" src="imagens/S-SMS.png">
 		</section>
 		<?php
 		require_once "@include-footer-principal.php";
