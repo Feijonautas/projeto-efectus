@@ -36,6 +36,7 @@
 				justify-content: center;
 				flex: 1;
 				margin: 0 0 50px 0;
+				padding: 10px;
 			}
 			.main-content .content .display-content .box-content .title-marketing{
 				margin: 50px 0 50px 0; 
@@ -158,28 +159,28 @@
 			<div class="content">
 				<div class="display-content">
 					<div class="box-content">
-						<img class="sms-marketing" src="imagens/departamentos/marketing/sms-marketing.png">
+						<img class="sms-marketing" src="imagens/departamentos/marketing/analytics-efectus-digital.jpg">
 					</div>
 					<div class="box-content">
 						<div class="title-marketing">
-							<h1 class="title-top">SMS</h1>
-							<span class="title-bottom">Marketing</span>
+							<h1 class="title-top">GOOGLE</h1>
+							<span class="title-bottom">Analytics</span>
 						</div>
-						<p class="text-marketing">O SMS é uma ferramenta de relacionamento com clientes que cresceu significativamente nos últimos anos, devido à descoberta dos seus benefícios e diferenciais pelos profissionais de marketing. Ele é um meio de comunicação com ligação direta, personalizada, instantânea, interativa e que, geralmente, está 24 horas por dia junto aos clientes. Estas características fazem do SMS uma ferramenta importante do Marketing de Relacionamento. O SMS Marketing é utilizado através de campanhas por empresas que pretendem realizar ações de marketing com baixo custo de investimento, ampliando seu leque de ferramentas de publicidade e aumentando a clientela. O SMS tornou-se a principal fonte de comunicação com os consumidores e, através do SMS Marketing, campanhas vêm se tornando cada vez mais eficazes, eficientes e estratégicas para as empresas diversifiquem seu portfólio de comunicação para atingir seu público-alvo, pois é possivel realizar uma propaganda direita sem os altos custos do marketing tradicional (rádio, TV, jornal, entre outros).</p>
+						<p class="text-marketing">O Google Analytics é uma ferramenta de monitoramento de tráfego de um site que funciona como uma poderosa ferramenta na ajuda de tomada de decisões em negócios na Internet. É capaz de identificar a taxa de exibição e hit de uma página, a localização geográfica do visitante, a forma com a qual esse visitante chegou na página, o sistema operacional, o navegador, a resolução de tela, o Java, o reprodutor de flash instalado e muitas outras funções, em períodos diários, semanais, mensais e anuais.</p>
 					</div>
 				</div>
 				<div class="display-info">
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/design-responsivo.png">
-						<p class="text">Acessível a todos os dispositivos</p>
+						<img class="img-info" src="imagens/departamentos/marketing/analytics-1.jpg">
+						<p class="text">Metas e resultados alcançados</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/marketing.png">
-						<p class="text">Marketing de baixo custo</p>
+						<img class="img-info" src="imagens/departamentos/marketing/analytics-2.jpg">
+						<p class="text">Estratégias de impulsionamento</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/publico-alvo.jpeg">
-						<p class="text">Público alvo selecionado</p>
+						<img class="img-info" src="imagens/departamentos/marketing/analytics-3.jpg">
+						<p class="text">Estatísticas detalhadas</p>
 					</div>
 				</div>
 			</div>

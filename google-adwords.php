@@ -158,28 +158,28 @@
 			<div class="content">
 				<div class="display-content">
 					<div class="box-content">
-						<img class="sms-marketing" src="imagens/departamentos/marketing/sms-marketing.png">
+						<img class="sms-marketing" src="imagens/departamentos/marketing/adwords-efectus-digital.jpg">
 					</div>
 					<div class="box-content">
 						<div class="title-marketing">
-							<h1 class="title-top">SMS</h1>
-							<span class="title-bottom">Marketing</span>
+							<h1 class="title-top">GOOGLE</h1>
+							<span class="title-bottom">Adwords</span>
 						</div>
-						<p class="text-marketing">O SMS é uma ferramenta de relacionamento com clientes que cresceu significativamente nos últimos anos, devido à descoberta dos seus benefícios e diferenciais pelos profissionais de marketing. Ele é um meio de comunicação com ligação direta, personalizada, instantânea, interativa e que, geralmente, está 24 horas por dia junto aos clientes. Estas características fazem do SMS uma ferramenta importante do Marketing de Relacionamento. O SMS Marketing é utilizado através de campanhas por empresas que pretendem realizar ações de marketing com baixo custo de investimento, ampliando seu leque de ferramentas de publicidade e aumentando a clientela. O SMS tornou-se a principal fonte de comunicação com os consumidores e, através do SMS Marketing, campanhas vêm se tornando cada vez mais eficazes, eficientes e estratégicas para as empresas diversifiquem seu portfólio de comunicação para atingir seu público-alvo, pois é possivel realizar uma propaganda direita sem os altos custos do marketing tradicional (rádio, TV, jornal, entre outros).</p>
+						<p class="text-marketing">AdWords é o principal serviço de publicidade da Google. Ele usa o sistema de Custo por Clique (CPC ou CPM), que consiste em anúncios em forma de links que são encontrados nos mecanismos de pesquisa relacionados às palavras-chave que o internauta está pesquisando. Os anúncios são exibidos juntamente com os resultados de pesquisa no Google, chamado de rede de Display. A posição do anúncio na página de resultados (classificação do anúncio) é definida pelo CPC máximo X Índice de qualidade. Esse Índice de qualidade é determinado pelo histórico de desempenho no Google, que inclui a taxa de cliques (CTR), a relevância do texto do anúncio, o histórico de desempenho da palavra-chave, a qualidade da página de destino (site), entre outros. Esses elementos é que vão determinar a posição do seu anúncio na página de busca. Lembre-se que o Google valoriza os anúncios cujo conteúdo tem uma relação mais estreita com a busca realizada.</p>
 					</div>
 				</div>
 				<div class="display-info">
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/design-responsivo.png">
-						<p class="text">Acessível a todos os dispositivos</p>
+						<img class="img-info" src="imagens/departamentos/marketing/adwords-1.jpg">
+						<p class="text">Análise de tendências</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/marketing.png">
-						<p class="text">Marketing de baixo custo</p>
+						<img class="img-info" src="imagens/departamentos/marketing/adwords-2.jpg">
+						<p class="text">Seguimentação e análise de resultados</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/publico-alvo.jpeg">
-						<p class="text">Público alvo selecionado</p>
+						<img class="img-info" src="imagens/departamentos/marketing/adwords-3.jpg">
+						<p class="text">Resultados analisádos</p>
 					</div>
 				</div>
 			</div>

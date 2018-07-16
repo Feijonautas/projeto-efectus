@@ -12,14 +12,12 @@
 		top: 0;
 		left: 0;
 		z-index: -1;
-		background-color: #ccc;
-		height: 800px;
 	}
 	.maincontainer .display-info{
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		margin-top: 400px;
+		margin: 500px 0 50px 0;
 	}
 	.maincontainer .display-info .box-title{
 		height: 300px;
@@ -52,6 +50,7 @@
 	.maincontainer .display-info .box-text .text{
 		text-align: justify;
 		color: #205198;
+		margin-bottom: 40px;
 	}
 	.maincontainer .display-info .box-text .call-to-action{
 		text-decoration: none;
@@ -67,7 +66,7 @@
 	.maincontainer .display-content{
 		display: flex;
 		flex-wrap: wrap;
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 	}
 	.maincontainer .display-content .border-content{
@@ -312,8 +311,15 @@
 		.main-content .container .box-title .sub-title{
 			font-size: 90px;
 		}
+		.main-content .container .display-equipe .box-equipe-bottom{
+			margin: 0 40px 0;
+		}
 	}
 	@media screen and (max-width: 720px){
+		.main-container{
+			background-size: 100% 650px;
+			height: 650px;
+		}
 		.main-container .container .display-content .box-img{
 			display: none;
 		}
@@ -324,6 +330,11 @@
 			justify-content: center;
 		}
 	}
+	@media screen and (max-width: 640px){
+		.main-content .container .display-equipe{
+			width: 85%;
+		}
+	}
 	@media screen and (max-width: 480px){
 		.maincontainer .display-info .box-title .title, .sub-title{
 			font-size: 95px;
@@ -331,9 +342,14 @@
 		.maincontainer .display-info .box-title .title{
 			line-height: 80px;
 		}
-		.main-container .container .box-title .title{
-			font-size: 70px;
-			line-height: 60px;
+		.maincontainer .display-content .box-imagem{
+			width: 75%;
+		}
+		.maincontainer .display-content .box-text{
+			width: 100%;
+		}
+		.maincontainer .display-info .box-text{
+			width: 100%;
 		}
 		.main-container .container .box-title .sub-title{
 			font-size: 70px;
@@ -355,11 +371,50 @@
 			flex-direction: column;
 			align-items: center;
 		}
+		.main-container .container .box-title .title{
+			font-size: 75px;
+			line-height: 65px;
+		}
+		.main-container{
+			background-size: 100% 700px;
+			height: 700px;
+		}
+	}
+	@media screen and (max-width: 320px){
+		.maincontainer .display-info .box-title .title, .sub-title{
+			font-size: 70px;
+			line-height: 60px;
+		}
+		.maincontainer .display-info .box-title{
+			height: 180px;
+		}
+		.main-container .container .box-title .title{
+			font-size: 50px;
+			line-height: 45px;
+		}
+		.main-container .container .box-title .sub-title{
+			font-size: 50px;
+		}
+		.main-container .container .display-content .box-text{
+			width: 100%;
+		}
+		.main-content .container .box-title{
+			font-size: 75px;
+			height: 170px;
+		}
+		.main-content .container .box-title .title{
+			font-size: 70px;
+		}
+		.main-content .container .box-title .sub-title{
+			font-size: 70px;
+		}
 	}
 </style>
 <section class="maincontainer">
 	<div class="box-iframe">
-		<!--<iframe width="100%" height="500px" src="https://www.youtube.com/embed/7VH3wJmMdPU?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allownetworking=”internal></iframe>-->
+<!--
+		<iframe width="100%" height="600" src="https://www.youtube.com/embed/7VH3wJmMdPU?autoplay=1; rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+-->
 	</div>
 	<div class="display-info">
 		<div class="box-title">

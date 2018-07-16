@@ -43,6 +43,7 @@
 				flex-direction: column;
 				align-items: flex-end;
 				height: 250px;
+				margin-top: 70px;
 			}
 			.main-container .container .box-title .title{
 				font-size: 100px;
@@ -173,15 +174,17 @@
 			.content-padroes .display-content .box-title{
 				display: flex;
 				flex-direction: column;
-				width: 50%;
+				align-items: center;
+				width: 90%;
 				height: 100px;
 			}
 			.content-padroes .display-content .box-title .title{
 				font-size: 105px;
-				line-height: 125px;
+				line-height: 110px;
 				font-family: overpassheavyitalic;
 				margin: 0;
 				padding: 0;
+				width: 90%;
 				background: -webkit-linear-gradient(left, rgba(16,105,201,1) 0%, rgba(117,189,209,1) 81%, rgba(147,206,222,1) 100%);
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
@@ -192,10 +195,7 @@
 				font-family:  bebasneue light_0;
 				font-style: italic;
 				line-height: 1px;
-				margin: 0 0 0 230px;
-			}
-			.content-padroes .display-content .box-title .style-subtitle{
-				margin-left: 250px;
+				margin-left: 50px;
 			}
 			.content-padroes .display-content .box-text{
 				width: 50%;
@@ -208,7 +208,7 @@
 			.content-padroes .display-info{
 				display: flex;
 				justify-content: space-between;
-				margin: 50px 0 0 0;
+				margin: 50px 0 100px 0;
 			}
 			.content-padroes .display-info .box-info{
 				display: flex;
@@ -216,8 +216,9 @@
 				justify-content: center;
 				width: 300px;
 				text-align: center;
-				border: 1px solid #000;
-				margin: 0 0 50px 0;
+				border: 1px solid transparent;
+				border-image: linear-gradient(to right, #0064AA, #00BBFA);
+				border-image-slice: 1;
 				color: #205198;
 			}
 			@media screen and (max-width: 1440px){
@@ -229,6 +230,9 @@
 				}
 			}
 			@media screen and (max-width: 1366px){
+				.main-container{
+					background-size: 100% 870px;
+				}
 				.main-container .container .display-content .box-img img{
 					height: 700px;
 				}
@@ -237,24 +241,37 @@
 				}
 			}
 			@media screen and (max-width: 1280px){
+				.main-container{
+					background-size: 100% 900px;
+				}
 				.main-container .container .box-title{
 					margin-right: 50px;
 				}
 				.main-container .container .box-text .img-macbooke{
 					left: 170px;
 				}
+				.content-linguagens .display-content .box-img-linguagens{
+					width: 35%;
+				}
 			}
 			@media screen and (max-width: 1024px){
 				.main-container{
 					background-size: 100% 880px;
 				}
+				.main-container .container{
+					width: 90%;
+				}
+				.main-container .container .display-content .box-text{
+					width: 80%;
+				}
 				.main-container .container .display-content .box-img img{
 					height: 550px;
-					top: -30px;
+					top: 65px;
 				}
 				.main-container .container .box-text .img-macbooke{
 					width: 600px;
     				top: -150px;
+					left: 230px;
 				}
 				.content-linguagens .img-cell{
 					width: 45%;
@@ -278,7 +295,6 @@
 				}
 				.main-container .container .display-content .box-img img{
 					height: 550px;
-					top: -30px;
 				}
 				.main-container .container .box-text .img-macbooke{
 					width: 550px;
@@ -286,6 +302,9 @@
 				}
 				.main-container .container .box-title{
 					height: 200px;
+				}
+				.main-container .container .display-content .box-text{
+					width: 65%;
 				}
 				.content-linguagens .img-cell{
 					width: 45%;
@@ -343,13 +362,15 @@
 				}
 				.main-container .container .display-content .box-text{
 					width: 100%;
+					margin-bottom: 50px;
 				}
 				.main-container .container .box-text .img-macbooke{
-					left: 60px;
+					left: 105px;
 					top: -100px;
 				}
 				.content-linguagens .img-cell{
 					width: 55%;
+					left: -80px;
 				}
 				.content-padroes .display-content{
 					flex-direction: column;
@@ -364,6 +385,9 @@
 				}
 				.content-padroes .display-info .box-info{
 					width: 230px;
+				}
+				.content-linguagens .display-content .box-img-linguagens{
+					width: 60%;
 				}
 			}
 			@media screen and (max-width: 720px){
@@ -410,7 +434,7 @@
 					background-size: 100% 800px;
 				}
 				.main-container .container .box-title{
-					height: 150px;
+					height: 110px;
 				}
 				.main-container .container .box-title .title{
 					font-size: 70px;
@@ -443,9 +467,6 @@
 				}
 				.content-padroes .display-content .box-title .sub-title{
 					font-size: 70px;
-				}
-				.content-padroes .display-content .box-title .style-subtitle{
-					margin-left: 150px;
 				}
 				.content-padroes .display-info{
 					flex-direction: column;
@@ -561,7 +582,7 @@
 			</div>
 		</section>
 		<?php
-		require_once "footer-atualizado.php";
+		require_once "@include-footer-principal.php";
 		?>
 	</body>
 </html>

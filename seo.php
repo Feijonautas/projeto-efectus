@@ -158,28 +158,27 @@
 			<div class="content">
 				<div class="display-content">
 					<div class="box-content">
-						<img class="sms-marketing" src="imagens/departamentos/marketing/sms-marketing.png">
+						<img class="sms-marketing" src="imagens/departamentos/marketing/seo-analise-efectus-digital.jpg">
 					</div>
 					<div class="box-content">
 						<div class="title-marketing">
-							<h1 class="title-top">SMS</h1>
-							<span class="title-bottom">Marketing</span>
+							<h1 class="title-top">SEO</h1>
 						</div>
-						<p class="text-marketing">O SMS é uma ferramenta de relacionamento com clientes que cresceu significativamente nos últimos anos, devido à descoberta dos seus benefícios e diferenciais pelos profissionais de marketing. Ele é um meio de comunicação com ligação direta, personalizada, instantânea, interativa e que, geralmente, está 24 horas por dia junto aos clientes. Estas características fazem do SMS uma ferramenta importante do Marketing de Relacionamento. O SMS Marketing é utilizado através de campanhas por empresas que pretendem realizar ações de marketing com baixo custo de investimento, ampliando seu leque de ferramentas de publicidade e aumentando a clientela. O SMS tornou-se a principal fonte de comunicação com os consumidores e, através do SMS Marketing, campanhas vêm se tornando cada vez mais eficazes, eficientes e estratégicas para as empresas diversifiquem seu portfólio de comunicação para atingir seu público-alvo, pois é possivel realizar uma propaganda direita sem os altos custos do marketing tradicional (rádio, TV, jornal, entre outros).</p>
+						<p class="text-marketing">O SEO é a otimização de uma página ou até mesmo de um site inteiro, para que ele seja melhor compreendido pelas ferramentas de busca. O objetivo da utilização das técnicas de SEO, é o melhor posicionamento de um site em uma página de resultados de busca. Por exemplo, ao pesquisar no Google por “Marketing Digital”, os primeiros resultados que aparecem, são de sites que possuem essas técnicas. No entanto, nenhuma empresa pode garantir que seu site fique em primeiro lugar em uma busca, pois o único capaz disto é o próprio site de busca como o Google, porém, empresas e agências podem elevar a posição de seu site para a primeira página do Google, nas posições de busca que são mais acessadas.</p>
 					</div>
 				</div>
 				<div class="display-info">
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/design-responsivo.png">
-						<p class="text">Acessível a todos os dispositivos</p>
+						<img class="img-info" src="imagens/departamentos/marketing/seo-palavaras-chaves-efectus-digital.jpg">
+						<p class="text">Análise de palavras chaves</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/marketing.png">
-						<p class="text">Marketing de baixo custo</p>
+						<img class="img-info" src="imagens/departamentos/marketing/seo-estruturalizacao-efectus-digital.jpg">
+						<p class="text">Estruturação e implantação no site</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/publico-alvo.jpeg">
-						<p class="text">Público alvo selecionado</p>
+						<img class="img-info" src="imagens/departamentos/marketing/seo-analise-efectus-digital.jpg">
+						<p class="text">Revisão e análise geral dos resultados</p>
 					</div>
 				</div>
 			</div>

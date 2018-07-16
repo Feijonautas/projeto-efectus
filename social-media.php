@@ -158,28 +158,28 @@
 			<div class="content">
 				<div class="display-content">
 					<div class="box-content">
-						<img class="sms-marketing" src="imagens/departamentos/marketing/sms-marketing.png">
+						<img class="sms-marketing" src="imagens/departamentos/marketing/social-media-efectus-digital.jpg">
 					</div>
 					<div class="box-content">
 						<div class="title-marketing">
-							<h1 class="title-top">SMS</h1>
-							<span class="title-bottom">Marketing</span>
+							<h1 class="title-top">SOCIAL</h1>
+							<span class="title-bottom">Media</span>
 						</div>
-						<p class="text-marketing">O SMS é uma ferramenta de relacionamento com clientes que cresceu significativamente nos últimos anos, devido à descoberta dos seus benefícios e diferenciais pelos profissionais de marketing. Ele é um meio de comunicação com ligação direta, personalizada, instantânea, interativa e que, geralmente, está 24 horas por dia junto aos clientes. Estas características fazem do SMS uma ferramenta importante do Marketing de Relacionamento. O SMS Marketing é utilizado através de campanhas por empresas que pretendem realizar ações de marketing com baixo custo de investimento, ampliando seu leque de ferramentas de publicidade e aumentando a clientela. O SMS tornou-se a principal fonte de comunicação com os consumidores e, através do SMS Marketing, campanhas vêm se tornando cada vez mais eficazes, eficientes e estratégicas para as empresas diversifiquem seu portfólio de comunicação para atingir seu público-alvo, pois é possivel realizar uma propaganda direita sem os altos custos do marketing tradicional (rádio, TV, jornal, entre outros).</p>
+						<p class="text-marketing">As mídias sociais dependem da interação entre as pessoas, pois a discussão e a integração entre elas, constrói o conteúdo compartilhado. Se referem a grupos formados e alimentados pelos usuários, como os fóruns, blogs, sites de compartilhamento de vídeos e sites de relacionamentos. São um instrumento revolucionário que pode alterar as relações sociais, a visão empresarial de algumas marcas e de como elas devem se relacionar com os seus consumidores. As plataformas de mídias sociais são uma das mais influentes formas de mídia criada, pois é uma ferramenta que pode ser utilizada como massificação de informações, capazes de criar caminhos para um determinado conceito ou pensamento. O uso dessas mídias é um poderoso instrumento de marketing de relacionamento, tornando uma marca conhecida pelo maior número de pessoas.</p>
 					</div>
 				</div>
 				<div class="display-info">
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/design-responsivo.png">
-						<p class="text">Acessível a todos os dispositivos</p>
+						<img class="img-info" src="imagens/departamentos/marketing/social-media-1.jpg">
+						<p class="text">Meios de divulgação mais importantes</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/marketing.png">
-						<p class="text">Marketing de baixo custo</p>
+						<img class="img-info" src="imagens/departamentos/marketing/social-media-2.jpg">
+						<p class="text">Texto</p>
 					</div>
 					<div class="box-info">
-						<img class="img-info" src="imagens/departamentos/marketing/publico-alvo.jpeg">
-						<p class="text">Público alvo selecionado</p>
+						<img class="img-info" src="imagens/departamentos/marketing/social-media-3.jpg">
+						<p class="text">Texto</p>
 					</div>
 				</div>
 			</div>
